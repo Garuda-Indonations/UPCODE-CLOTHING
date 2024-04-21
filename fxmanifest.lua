@@ -5,4 +5,4 @@ client_scripts { 'shared/*', 'client/*' }
 
 ui_page 'html/index.html'
 
-files { 'html/*' }
+files { 'html/**' }
