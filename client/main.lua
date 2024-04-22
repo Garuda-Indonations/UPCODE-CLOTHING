@@ -185,6 +185,7 @@ CreateThread(function()
 end)
 
 RegisterCommand(Config.Open.command, function()
+    if GetVehiclePedIsIn(PlayerPedId(), false) ~= 0 then return end
     OpenMenu()
 end)
 
